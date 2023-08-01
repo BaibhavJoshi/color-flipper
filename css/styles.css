@@ -77,12 +77,12 @@ main h1{
     transform:translateY(4px)
 }
 
-.color{
-    cursor:pointer;
-}
-
 @media screen and (max-width: 750px) {
     header{
         justify-content:center;
     }
+}
+
+.color{
+    cursor:pointer;
 }
