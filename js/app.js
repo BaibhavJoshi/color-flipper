@@ -9,8 +9,12 @@
 
     let random_color = randomColor()
 
-    document.body.style.backgroundColor = random_color
+    document.body.style.backgroundColor = random_color;
 
-    color.textContent = random_color
+    color.textContent = random_color;
 
+ })
+
+ color.addEventListener("click", (event) => {
+    navigator.clipboard.writeText(event.target.innerText);
  })
